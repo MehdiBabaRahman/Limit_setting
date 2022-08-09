@@ -1,0 +1,65 @@
+ adding #1: /afs/cern.ch/work/m/merahman/public/public/NEWDIR/CMSSW_10_2_16_patch2/src/MuJetAnalysis/CutFlowAnalyzer/scripts/cutflow_macros/MSD_scan/MZD_200/MZD_200_sD_40/Run2_2018/201014_220738/0000/out_ana_1_1.root
+main tree entries: 10000
+Looking at Events 0
+-------------------------
+GEN-8-8-8-8@PIX: 3555
+RECO1stMu8: 3555
+RECO2ndMu8: 3555
+RECO3rdMu8: 3554
+RECO4thMu8: 3527
+RECO1+2Mu8: 3555
+RECO1+2+3Mu8: 3554
+RECO1+2+3+4Mu8: 3527
+-------------------------
+GEN matched cut 10: 3344
+0 SA mu, 0 mujet: 0
+0 SA mu, 1 mujet: 3
+0 SA mu, 2 mujet: 3315
+-------------------------
+GEN matched cut 11: 1854
+GEN matched cut 12: 1854
+2 dimu, 0 Non-Tracker mu: 1835
+2 dimu, 1 Non-Tracker mu: 18
+2 dimu, 2 Non-Tracker mu: 1
+2 dimu, 3 Non-Tracker mu: 0
+2 dimu, 4 Non-Tracker mu: 0
+2 dimu, 0 SA mu: 1835
+2 dimu, 1 SA mu: 19
+2 dimu, 2 SA mu: 0
+-------------------------
+HLT0: 0.991368
+HLT1: 0.988048
+HLT2: 0.982072
+HLT3: 0.99336
+-------------------------
+orphan-dimu tree entries: 2306
+Here is the cut-flow-table:
+epsvsalph[k]: 0.382789
+        
+begin{landscape}
+centering
+begin{tabular}{ c| c | c | c | c | c }
+ #   Selection                &  \# Evts    &  Tot. Eff.    &  Rel. Eff.    &  Tot. Eff. Err.  &  Rel. Eff. Err.  hline 
+ #0  No cut                   & 10000       & 1             & 1             & 0                & 0                hline 
+ #1  1TotGenMu24Eta2          & 7940        & 0.794         & 0.794         & 0.00404          & 0.00404          hline 
+ #2  2TotGenMu24Eta2          & 5901        & 0.59          & 0.743         & 0.00492          & 0.0049           hline 
+ #3  3TotGenMu8Eta2p4         & 5467        & 0.547         & 0.926         & 0.00498          & 0.0034           hline 
+ #4  4TotGenMu8Eta2p4         & 3370        & 0.337         & 0.616         & 0.00473          & 0.00658          hline 
+ #5  Decay in Phase 1 pixdet  & 3370        & 0.337         & 1             & 0.00473          & 0                hline 
+                                                                                                                             hline 
+ #6  1TotRecoMu24Eta2         & 7964        & 0.796         & 0.796         & 0.00403          & 0.00403          hline 
+ #7  2TotRecoMu24Eta2         & 5917        & 0.592         & 0.743         & 0.00492          & 0.0049           hline 
+ #8  3TotRecoMu8Eta2p4        & 5498        & 0.55          & 0.929         & 0.00498          & 0.00333          hline 
+ #9  4TotRecoMu8Eta2p4        & 3503        & 0.35          & 0.637         & 0.00477          & 0.00648          hline 
+ #10 Good primary vertex      & 3503        & 0.35          & 1             & 0.00477          & 0                hline 
+ #11 Two candidate dimuons    & 1878        & 0.188         & 0.536         & 0.00391          & 0.00843          hline 
+ #12 Valid pix hit            & 1878        & 0.188         & 1             & 0.00391          & 0                hline 
+ #13 Veto DY QED radiation    & 1874        & 0.187         & 0.998         & 0.0039           & 0.00106          hline 
+ #14 Dimuon isolation         & 1527        & 0.153         & 0.815         & 0.0036           & 0.00897          hline 
+ #15 Signal HLT accepted      & 1524        & 0.152         & 0.998         & 0.00359          & 0.00113          hline 
+ #16 Cut SA-only Mu BKG       & 1494        & 0.149         & 0.98          & 0.00356          & 0.00356          hline 
+ #17 Consistent dimuon mass   & 1290        & 0.129         & 0.863         & 0.00335          & 0.00888          hline 
+                                                                                                                          hline 
+ epsilon_rec/alpha_gen     & 0.383 $\pm$ 0.0125 hline 
+end{tabular}
+end{landscape}
